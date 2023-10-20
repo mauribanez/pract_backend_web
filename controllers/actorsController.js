@@ -1,9 +1,9 @@
 const mysql = require('mysql');
 const db = mysql.createConnection({
   host: 'localhost',
-  user: 'tu_usuario',
-  password: 'tu_contraseña',
-  database: 'tu_base_de_datos'
+  user: 'mauri',
+  password: 'admin',
+  database: 'sakila'
 });
 
 // Controladores para las rutas CRUD
